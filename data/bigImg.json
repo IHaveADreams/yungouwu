@@ -1,0 +1,56 @@
+{
+    "code": "0",
+    "msg": "",
+    "data": [
+        {
+            "type": "goods",
+            "adv_id": "6",
+            "adv_pic": "upload/adv_manage/37b3cb11b825d6ad99b39715259e6cd4.jpg@800w_450h.jpg",
+            "adv_pic_type": "1",
+            "url": "index.php?act=goods_pre&op=index&goods_id=25372",
+            "url_id": "25372"
+        },
+        {
+            "type": "store",
+            "adv_id": "17",
+            "adv_pic": "upload/adv_manage/e4f663b4837fcc1e4cda9c63fe20f693.jpg@800w_450h.jpg",
+            "adv_pic_type": "1",
+            "url": "index.php?act=app_vstoreindex&op=index&store_id=4925",
+            "url_id": "4925"
+        },
+        {
+            "type": "store",
+            "adv_id": "26",
+            "adv_pic": "upload/adv_manage/95d8834c6e6b24e50a4711f1049b4fd2.jpg@800w_450h.jpg",
+            "adv_pic_type": "1",
+            "url": "index.php?act=app_vstoreindex&op=index&store_id=4312",
+            "url_id": "4312"
+        },
+        {
+            "type": "store",
+            "adv_id": "32",
+            "adv_pic": "upload/adv_manage/21f575fe0825f44dd37ac746ed4e69ad.jpg@800w_450h.jpg",
+            "adv_pic_type": "1",
+            "url": "index.php?act=app_vstoreindex&op=index&store_id=4283",
+            "url_id": "4283"
+        },
+        {
+            "type": "store",
+            "adv_id": "19",
+            "adv_pic": "upload/adv_manage/599bd9a1a77115ef514e288844926bae.jpg@800w_450h.jpg",
+            "adv_pic_type": "1",
+            "url": "index.php?act=app_vstoreindex&op=index&store_id=4910",
+            "url_id": "4910"
+        },
+        {
+            "type": "store",
+            "adv_id": "9",
+            "adv_pic": "upload/adv_manage/456d8a775366d77a8c33fa62657d06c7.jpg@800w_450h.jpg",
+            "adv_pic_type": "1",
+            "url": "index.php?act=app_vstoreindex&op=index&store_id=4937",
+            "url_id": "4937"
+        }
+    ],
+    "img_url": "//img.51fanxing.com",
+    "details_url": "&type=share"
+}

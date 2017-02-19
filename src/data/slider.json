@@ -1,0 +1,26 @@
+{
+    "state": 0,
+    "listItems": [
+        {
+            "alt": "",
+            "url": "http://m.yungowu.cn/mobile/mobile/item/921",
+            "src": "http://m.yungowu.cn/statics/uploads/banner/20161218/78709971050857.jpg",
+            "width": "614PX",
+            "height": "110PX"
+        },
+        {
+            "alt": "",
+            "url": "http://m.yungowu.cn/mobile/home/startAdd",
+            "src": "http://m.yungowu.cn/statics/uploads/banner/20161218/23046045050922.jpg",
+            "width": "614PX",
+            "height": "110PX"
+        },
+        {
+            "alt": "",
+            "url": "http://m.yungowu.cn/mobile/envelope/index",
+            "src": "http://m.yungowu.cn/statics/uploads/banner/20161218/18512687050957.jpg",
+            "width": "614PX",
+            "height": "110PX"
+        }
+    ]
+}
