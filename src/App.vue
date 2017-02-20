@@ -70,6 +70,9 @@ export default {
 	ul,ol,li{
 		list-style: none;
 	}
+	#index{
+		padding-bottom: 4rem;
+	}
 	#index_footer{
 		position: fixed;
 		left: 0;

@@ -22,13 +22,14 @@ var proxyTable = config.dev.proxyTable
 
 var app = express();
 
-var bigImg = require('../data/bigImg.json');
-var index = require('../data/shouye.json');
+var trophyMsg = require('../data/trophyMsg.json');
 var slider = require('../data/slider.json');
+var banner = require('../data/banner.json');
+var indexdata = require('../data/indexdata.json');
 
 var apiRoutes = express.Router();
-apiRoutes.get('/bigImg',function(req,res){
-	res.json(bigImg)
+apiRoutes.get('/trophyMsg',function(req,res){
+	res.json(trophyMsg)
 });
 
 apiRoutes.get('/index',function(req,res){
@@ -39,6 +40,13 @@ apiRoutes.get('/slider',function(req,res){
 	res.json(slider)
 });
 
+apiRoutes.get('/banner',function(req,res){
+	res.json(banner)
+});
+
+apiRoutes.get('/indexdata',function(req,res){
+	res.json(indexdata)
+});
 
 
 app.use('/data',apiRoutes);
