@@ -26,6 +26,8 @@ var trophyMsg = require('../data/trophyMsg.json');
 var slider = require('../data/slider.json');
 var banner = require('../data/banner.json');
 var indexdata = require('../data/indexdata.json');
+var zuixinjiexiao = require('../data/zuixinjiexiao.json');
+var news = require('../data/news.json');
 
 var apiRoutes = express.Router();
 apiRoutes.get('/trophyMsg',function(req,res){
@@ -47,6 +49,12 @@ apiRoutes.get('/banner',function(req,res){
 apiRoutes.get('/indexdata',function(req,res){
 	res.json(indexdata)
 });
+apiRoutes.get('/zxjx',function(req,res){
+	res.json(zuixinjiexiao)
+});
+apiRoutes.get('/news',function(req,res){
+	res.json(news)
+})
 
 
 app.use('/data',apiRoutes);

@@ -2,7 +2,6 @@
   <div id="index">
     <router-view></router-view>
     <div id="index_footer">
-    	
     	<a v-for="nav in navArr" :href="nav.url" :class="nav.cla" @click="change(nav)"><div></div>{{nav.txt}}</a>
     </div>
   </div>

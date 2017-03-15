@@ -9,15 +9,38 @@
 		<div class="new_classly">
 			全部分类
 		</div>
+		<ul >
+			<li class="new_shop" v-for="data in datas">
+				<div class="new_img">
+					<img :src="data.codegoodspic"/>
+				</div>
+				<div class="new_text" @click="ff()">
+					<p>获得者：{{data.username}}</p>
+					<p>商品价值：￥{{data.codeprice}}</p>
+					<p>本次参与: {{data.codeRIpAddr}}人次</p>
+					<p>揭晓时间：{{data.codeRTime}}</p>
+				</div>
+			</li>
+		</ul>
 	</div>
 </template>
 
 <script>
+
 	export default {
 		name: 'hello',
 		data() {
 			return {
+				datas:[],
+				ff:function(){
+					console.log(sss)
+				}
 			}
+		},
+		created () {
+			this.$http.get('/data/zxjx').then(function(data){
+				this.datas = data.body.listItems //第一个data是形参
+			})
 		}
 	}
 </script>
@@ -64,6 +87,33 @@
 		box-sizing: border-box;
 		width: 100%;
 		/*height: 1.8rem;*/
+	}
+	.new_shop{
+		width: 100%;
+		border-bottom: 0.15rem solid #dedede;
+		overflow: hidden;
+		padding: 0.5rem 0;
+		.new_img{
+			width: 17%;
+			margin: 0.5rem;
+			padding: 0.5rem;
+			height: 5.5rem;
+			line-height: 5.5rem;
+			float: left;
+			border: 0.1rem solid #e5e5e5;
+			img{
+				width: 100%;
+			}
+		}
+		.new_text{
+			flex: 7.5;
+			p{
+				font-size: 1.1rem;
+			}
+			p:nth-child(1){
+				margin-top: 1rem;
+			}
+		}
 	}
 }
 </style>
